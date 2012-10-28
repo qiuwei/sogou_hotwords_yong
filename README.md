@@ -18,3 +18,7 @@ which results something like this:
         dicts=mb/hotwords.txt
 
 2. Add the script to system's autostart list
+
+Screenshot
+-------------------
+![Screenshot]https://github.com/qiuwei/sogou_hotwords_yong/blob/master/screenshot.png
