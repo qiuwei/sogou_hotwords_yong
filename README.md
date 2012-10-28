@@ -21,4 +21,4 @@ which results something like this:
 
 Screenshot
 -------------------
-![Screenshot](https://github.com/qiuwei/sogou_hotwords_yong/blob/master/screenshot.png)
+![Screenshot](https://raw.github.com/qiuwei/sogou_hotwords_yong/blob/master/screenshot.png)
