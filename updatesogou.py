@@ -204,9 +204,14 @@ if __name__ == '__main__':
     dldict(dl_name)
     
     examples = deal(dl_name)
+    # ensure the directory exsits
+    dname = os.getenv('HOME') + '/.yong/mb'
+    d =  os.path.dirname(dname)
+    if not os.path.exists(d):
+        os.makedirs(d)
             
     #保存结果  
-    f = open(os.getenv('HOME') + '/.yong/mb/hotwords.txt','w')
+    f = open(dname + '/hotwords.txt','w')
     for count,py,word in GTable:
         #GTable保存着结果，是一个列表，每个元素是一个元组(词频,拼音,中文词组)，有需要的话可以保存成自己需要个格式
         #我没排序，所以结果是按照上面输入文件的顺序
